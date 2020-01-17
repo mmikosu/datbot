@@ -1,0 +1,23 @@
+{
+  "name": "datbot",
+  "version": "1.0.0",
+  "description": "datbot Discord Bot",
+  "main": "datbot.js",
+  "scripts": {
+    "test": "db.ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmikosu/datbot.git"
+  },
+  "author": "Pyra_",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mmikosu/datbot/issues"
+  },
+  "homepage": "https://github.com/mmikosu/datbot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "random-puppy": "^1.1.0"
+  }
+}
