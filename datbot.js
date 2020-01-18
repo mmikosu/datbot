@@ -5,7 +5,7 @@ const client = new Client({
 
 const config = require('./config.json')
 
-const botver = "1.0"
+const botver = "1.0.0"
 const embedcolor = 517241
 
 const randomPuppy = require('random-puppy')
@@ -86,7 +86,7 @@ client.on('message', async msg => {
   if (command === 'info') {
 	 msg.author.send({embed: {
    "title": "datbot ver " + botver,
-   "description": "by Pyra_",
+   "description": "by Mikosu",
    "color": embedcolor,
    "footer": {
      "icon_url": client.user.avatarURL
